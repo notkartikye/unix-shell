@@ -54,7 +54,29 @@ This is a Linux/Unix-like shell implemented in C. This shell supports 3 internal
     ```bash
     make clean
     ```
-5. Run the shell with a command of your choice:
+5. Run the shell:
     ```bash
-    ./shell {command} -{optional-argument}
+    ./shell
     ```
+
+###### Example:
+```
+./shell
+
+> echo Hello, World!
+Hello, World!
+
+> ls -l
+directory1
+file1.txt
+file2.txt
+
+> date
+Mon Apr 20 00:04:20 UTC 2022
+
+> cat -n example.txt
+1    This is an example file.
+2    It has multiple lines.
+```
+
+---
