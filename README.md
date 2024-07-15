@@ -1,6 +1,6 @@
-# C Command Shell: A Unix-Like Multi-threaded Shell Implementation
+# Unix Shell Implemented Using C with Multi-Threading
 
-Welcome to the Command Shell project, a Unix-like shell implemented in C. This shell supports both internal and external commands with various options, executed via `fork/exec` or `pthread/system` function calls based on the user's preference. Commands can be run in parallel using threads, making this shell both versatile and efficient.
+This is a Linux/Unix-like shell implemented in C. This shell supports 3 internal and 5 external commands with various options, executed via `fork/exec` or `pthread/system` function calls based on the user's preference. Commands can be run in parallel using threads, making this shell very efficient.
 
 ## Features
 
@@ -32,8 +32,7 @@ Welcome to the Command Shell project, a Unix-like shell implemented in C. This s
 - `-i`: Ask for confirmation before removal.
 - `-v`: Display the status of removal.
 
-#### 5. mkdir
-Creates a new directory.
+#### 5. mkdir (creates a new directory)
   - `-v`: Display the status of directory creation.
 
 ## Instructions
@@ -57,5 +56,5 @@ Creates a new directory.
     ```
 5. Run the shell with a command of your choice:
     ```bash
-    ./shell {any-command}
+    ./shell {command} -{optional-argument}
     ```
