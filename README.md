@@ -78,5 +78,3 @@ Mon Apr 20 00:04:20 UTC 2022
 1    This is an example file.
 2    It has multiple lines.
 ```
-
----
