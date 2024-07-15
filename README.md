@@ -39,12 +39,13 @@ This is a Linux/Unix-like shell implemented in C. This shell supports 3 internal
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/notkartikye/unix-shell-c.git
+    git clone https://github.com/notkartikye/unix-shell.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd unix-shell-c
+    cd unix-shell
+    
     ```
 3. Build the project:
     ```bash
