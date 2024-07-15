@@ -1,4 +1,4 @@
-# Unix Shell Implemented Using C with Multi-Threading
+# Unix Shell Implementation using C Multithreading
 
 This is a Linux/Unix-like shell implemented in C. This shell supports 3 internal and 5 external commands with various options, executed via `fork/exec` or `pthread/system` function calls based on the user's preference. Commands can be run in parallel using threads, making this shell very efficient.
 
