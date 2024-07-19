@@ -40,22 +40,18 @@ This is a Linux/Unix-like shell implemented in C. This shell supports 3 internal
 
     ```bash
     git clone https://github.com/notkartikye/unix-shell.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
     cd unix-shell
-    
     ```
-3. Build the project:
+    
+2. Build the project:
     ```bash
     make build
     ```
-4. Clean the build files:
+3. Clean the build files:
     ```bash
     make clean
     ```
-5. Run the shell:
+4. Run the shell:
     ```bash
     ./shell
     ```
